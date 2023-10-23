@@ -3,8 +3,9 @@ var swiper = new Swiper(".blog-slider", {
 
     spaceBetween: 20,
     loop: true,
-    autoplay: {
+    autoplay: {        
         display: 2500,
+        delay: 30000,
         disableOnInteraction: false,
     },
     

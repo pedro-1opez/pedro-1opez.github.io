@@ -23,7 +23,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #BC8CF2;
+    --purple: #13bbff;
     --black: #000000;
     --white: #F7F5F2;
     --grey: #DFDFDE;
@@ -621,7 +621,7 @@ header #menu-btn:hover{
 
 .service-item i{
     color: var(--white);
-    font-size: 4rem;
+    font-size: 4rem;    
 }
 
 .service-item h3{
@@ -831,7 +831,6 @@ header #menu-btn:hover{
 
 /*--------------------- 8- Portfolio Area CSS (End) ---------------------*/
 
-
 /*--------------------- 9- Testimonials Area CSS (Start) ---------------------*/
 .testimonial-slider{
     position: relative;
@@ -1016,6 +1015,84 @@ header #menu-btn:hover{
 
 /*--------------------- 11- Contact Area CSS (End) ---------------------*/
 
+
+/*--------------------- 10- Blog Area CSS (Start) ---------------------*/
+.blog-slider{
+    position: relative;
+    padding-bottom: 4rem;
+    overflow: hidden;
+}
+
+.blog-item{
+    background-color: #222;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.blog-item .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.blog-item:hover .image img{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.blog-item .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-item .content{
+    padding: 2rem 1rem;
+}
+
+.blog-item .content .intro{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid var(--grey);
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.blog-item .content .intro h5{
+    font-size: 1.5rem;
+}
+
+.blog-item .content .intro h5 i{
+    color: var(--purple);
+    padding-right: 0.5rem;
+}
+
+.blog-item .content .intro h5 span{
+    color: var(--grey);
+}
+
+.blog-item .content .main-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.blog-item p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--grey);
+    text-align: justify;
+}
+
+.blog-item .btn{
+    margin-top: 1rem;
+}
+
+/*--------------------- 10- Blog Area CSS (End) ---------------------*/
 
 
 /*--------------------- 12- Footer Area CSS (Start) ---------------------*/
