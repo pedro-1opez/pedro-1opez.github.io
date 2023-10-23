@@ -4,7 +4,7 @@ var swiper = new Swiper(".testimonial-slider", {
     spaceBetween: 20,
     loop:true,
     autoplay: {
-      delay: 3000,
+      delay: 600000,
       disableOnInteraction: false, 
     },
 
