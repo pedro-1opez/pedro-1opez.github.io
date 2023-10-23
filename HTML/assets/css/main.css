@@ -882,6 +882,14 @@ header #menu-btn:hover{
     text-align: center
 }
 
+.testi-item .intro h3 a{
+    font-size: 2rem;
+    color: var(--white);
+    padding-bottom: 0.5rem; 
+    text-align: center;
+    text-decoration: none;
+}
+
 .testi-item .intro h5{
     color: var(--purple);
     font-size: 1.4rem;
